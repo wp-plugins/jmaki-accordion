@@ -1,0 +1,147 @@
+.jmaki-accordion {
+    overflow : hidden; 
+    font-family:"Myriad Pro",Myriad,Arial,Helvetica,clean,sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 18em;
+    border: 1px solid #b8e9aa;
+}
+
+.jmk-accordion-border{
+    background: #e8f5e4;
+    border: 1px solid #d7f2cf;
+    padding: 4px;
+    overflow: hidden;
+}
+
+.jmk-accordion-pane {
+    border :0px;
+    padding : 0px;
+    overflow : hidden;
+}
+
+
+.jmk-accordion-label {
+    padding-top : 5px;  
+}
+
+.jmk-accordion-content {
+    border :0;
+    padding : 0;
+    background: #FFF;
+    overflow : hidden;
+}
+
+.jmk-accordion-row {
+    border :0;
+    padding : 0;
+    height : 30px;
+    margin : 0;
+    text-align: center;  
+    cursor: pointer;
+    font-size:20px;
+    color:#FFF;  
+    
+}
+
+.jmk-accordion-menuitem-spacer{
+    margin: 0;
+    padding: 0;
+}
+
+.jmk-accordion-link {
+    cursor: pointer;
+    color : white;
+    text-decoration: none;
+}
+
+.jmk-accordion-link:hover {
+    text-decoration: underline;
+    color : white;
+}
+
+.jmk-accordion-link:visited {
+    color : white;
+}
+
+.jmk-accordion-row,
+.jmk-accordion-menuitem {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.jmk-accordion-menuitem {
+    font-size:1em;
+    background:#FFF;
+    line-height: 26px;
+}
+.jmk-accordion-menuitem .jmk-accordion-link,
+.jmk-accordion-menuitem .jmk-accordion-link:hover {
+    color: #04469D;
+    font-size: 0.75em;
+    font-family: "Lucida Grande",Arial,Helvetica,clean,sans-serif;
+}
+
+.jmk-accordion-menuitem .jmk-accordion-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #ACCCD5;
+}
+
+.jmk-accordion-menuitem:hover {
+    background:#ecf7e9;
+    text-decoration: none;
+}
+
+.jmk-accordion-title .jmk-accordion-link,
+.jmk-accordion-title .jmk-accordion-link:hover {
+    color: #000;
+    font-size: 0.85em;
+    text-decoration: none;
+}
+
+.jmk-accordion-label {
+    margin: 0;
+    padding: 0;
+    line-height: 34px;
+    font-size:0.9em;
+}
+
+.jmk-accordion-content {
+    border-bottom: 1px solid #D8D8D8;
+}
+
+/* general  styles */
+.jmakiBackround {
+    background:#EEEEEE;
+}
+
+.jmakiBackroundHover {
+    background:#FFC787;
+}
+
+.jmakiFont {
+    color : #FFF;
+}
+
+/* title used in accordion menu */
+
+.jmk-accordion-title {
+    background:#F8F8F8 url("images/tileGrayBg.png") repeat-x bottom left;
+    border-bottom: 1px solid #D8D8D8;
+    text-decoration: none;
+    line-height: 32px;
+}
+
+.jmk-accordion-title-selected {
+    background:#47c620 url("images/tileGreenBg.png") repeat-x bottom left;
+    border-bottom: 1px solid #D8D8D8;
+    text-decoration: none;
+    line-height: 32px;
+    font-size:1.1em;
+}
+.jmk-accordion-title:hover {
+    background:#F8F8F8 url("images/tileGreenAltBg.png") repeat-x bottom left;
+}
+
