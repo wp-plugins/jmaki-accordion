@@ -109,13 +109,13 @@ add_action("plugins_loaded", "accordion_init");
 
 $resourceRoot = "/resources";
 $cwd = getcwd();
-$resourceDir = "$cwd/wp-content/plugins/accordion/resources/";
+$resourceDir = "$cwd/wp-content/plugins/jmaki-accordion/resources/";
 //$resourceDir = "resources/";
 $globalTheme = null;
 
 //Karthik changing serverroot frm context to cwd
 $domain = get_option('siteurl');
-$contextRoot = "{$domain}/wp-content/plugins/accordion";
+$contextRoot = "{$domain}/wp-content/plugins/jmaki-accordion";
 $serverRoot = $contextRoot;
 // write out the jmaki script and friends
 echo "<script type='text/javascript' src='" .  $contextRoot . $resourceRoot ."/jmaki-min.js'></script>\n";
@@ -130,9 +130,9 @@ function addWidget($props) {
     //by karthik
     //contextRoot and resourceDir global values are not reflecting here, hence they are setted again
     $domain = get_option('siteurl');
-    $contextRoot = "{$domain}/wp-content/plugins/accordion";
+    $contextRoot = "{$domain}/wp-content/plugins/jmaki-accordion";
     $cwd = getcwd();
-    $resourceDir = "$cwd/wp-content/plugins/accordion/resources/";
+    $resourceDir = "$cwd/wp-content/plugins/jmaki-accordion/resources/";
     //$resourceRoot = "/resources";
     $name = null;
     $args = null;
