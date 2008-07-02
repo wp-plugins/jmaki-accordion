@@ -38,7 +38,7 @@ Plugin URI: http://jmaki.karthikbala.com/accordion
                            {label: 'Sites',
                                 menu: [
                                     { label : 'TollyZone',
-                                      href : 'http://jmaki.karthikbala.com/tollyzone',
+                                      href : 'http://jmaki.karthikbala.com/tollyzone'
                                      },
                                     { label : 'Zenmocha',
                                       href : 'http://www.zenmocha.com'
