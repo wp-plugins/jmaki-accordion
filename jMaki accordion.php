@@ -5,7 +5,7 @@ Description: Accordion to display links.
 Author: Karthik Bala
 Version: 0.1
 Author URI: http://karthikbala.com
-Plugin URI: http://jmaki.karthikbala.com/accordion
+Plugin URI: http://wordpress.org/extend/plugins/jmaki-accordion/
 */
     
     function accordion() 
